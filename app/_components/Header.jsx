@@ -27,7 +27,7 @@ const Header = () => {
             <ul className='hidden md:flex gap-10'>
                 <Link href={'/'}>
                     <li className={`'hover:text-primary font-medium text-sm cursor-pointer'
-                    ${path=='/' && 'text-primary'}`}>For Sale</li>
+                    ${path=='/' && 'text-primary'}`}>For Sell</li>
                 </Link>
                 <li className='hover:text-primary font-medium text-sm cursor-pointer'>For Rent</li>
                 <li className='hover:text-primary font-medium text-sm cursor-pointer'>Agent Finder</li>
